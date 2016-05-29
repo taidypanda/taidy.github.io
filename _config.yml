@@ -3,10 +3,10 @@
 # ----------------------- #
 
 url: http://taidypanda.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
+title: Taidy Panda's Blog
+subtitle: coder之路,任重而道远.
 author: Taidy panda
-simple_search: https://www.google.com/search
+simple_search: https://www.baidu.com/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -71,7 +71,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
