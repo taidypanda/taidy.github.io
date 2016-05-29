@@ -5,7 +5,7 @@ date: 2016-05-29 15:52:43 +0800
 comments: true
 categories: 教程
 ---
-作为一个程序员，如果没有自己的专属技术博客，岂不是很没面子？于是不久前在[damonfish](http://http://damonfish.github.io)的详细教程下完成了在Mac上使用Github+ Octopress搭建属于自己的博客，十分的感谢！所以我把搭建博客的过程记录总结下来。
+作为一个程序员，如果没有自己的专属技术博客，岂不是很没面子？于是不久前在[damonfish](http://damonfish.github.io)的详细教程下完成了在Mac上使用Github+ Octopress搭建属于自己的博客，十分的感谢！所以我把搭建博客的过程记录总结下来。
 
 ###1.环境要求
 因为本人从事iOS开发,使用的是Mac,所以本篇教程所讲述的就是在Mac上搭建博客的过程.
