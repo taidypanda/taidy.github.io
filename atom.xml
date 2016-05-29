@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://taidypanda.github.io/atom.xml" rel="self"/>
   <link href="http://taidypanda.github.io/"/>
-  <updated>2016-05-29T15:54:00+08:00</updated>
+  <updated>2016-05-29T16:00:08+08:00</updated>
   <id>http://taidypanda.github.io/</id>
   <author>
     <name><![CDATA[Taidy panda]]></name>
@@ -18,7 +18,7 @@
     <link href="http://taidypanda.github.io/blog/2016/05/29/da-jian-zi-ji-de-octopress/"/>
     <updated>2016-05-29T15:52:43+08:00</updated>
     <id>http://taidypanda.github.io/blog/2016/05/29/da-jian-zi-ji-de-octopress</id>
-    <content type="html"><![CDATA[<p>作为一个程序员，如果没有自己的专属技术博客，岂不是很没面子？于是不久前在<a href="http://http://damonfish.github.io">damonfish</a>的详细教程下完成了在Mac上使用Github+ Octopress搭建属于自己的博客，十分的感谢！所以我把搭建博客的过程记录总结下来。</p>
+    <content type="html"><![CDATA[<p>作为一个程序员，如果没有自己的专属技术博客，岂不是很没面子？于是不久前在<a href="http://damonfish.github.io">damonfish</a>的详细教程下完成了在Mac上使用Github+ Octopress搭建属于自己的博客，十分的感谢！所以我把搭建博客的过程记录总结下来。</p>
 
 <h3>1.环境要求</h3>
 
