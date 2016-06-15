@@ -9,7 +9,8 @@
   <meta name="author" content="Taidy panda">
 
   
-  <meta name="description" content="作为一个程序员，如果没有自己的专属技术博客，岂不是很没面子？于是不久前在damonfish的详细教程下完成了在Mac上使用Github+ Octopress搭建属于自己的博客，十分的感谢！所以我把搭建博客的过程记录总结下来。 1.环境要求 因为本人从事iOS开发,使用的是Mac, &hellip;">
+  <meta name="description" content="Xcode与github的搭配使用其实很简单,只需要简单的配置,就能让Xcode上的代码上传到github上,let&rsquo;s do it! 打开Xcode,新建一个工程,在创建的时候一定要勾选 create git repository on OK,你可以编辑你的代码了.
+完成之后, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +66,54 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/06/15/jiang-xcodezhong-de-dai-ma-shang-chuan-dao-githubshang/">将Xcode中的代码上传到github上</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-06-15T15:49:16+08:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>3:49 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h4>Xcode与github的搭配使用其实很简单,只需要简单的配置,就能让Xcode上的代码上传到github上,let&rsquo;s do it!</h4>
+
+<p>打开Xcode,新建一个工程,在创建的时候一定要勾选 create git repository on</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*MjqICEacGGUwEa2nc1hIJQ.png" alt="create" /></p>
+
+<p>OK,你可以编辑你的代码了.
+完成之后,现在打开你的github,新建一个仓库,填写名称,description,然后 <strong>记住</strong> <strong>千万不要勾选initialize your repository with a README</strong>,这样会带来本地和仓库文件不匹配的错误,导致上传的时候出现错误.<em>如果你手快,勾选上了,setting里面有一个删除次仓库选项&hellip;</em></p>
+
+<p>创建完毕之后,你会得到一个ssh链接或者一个HTTPS链接,复制.然后回到Xcode
+在Xcode上方点击 &ldquo;Source Control&rdquo;,选择你的分支名字&ndash;configure testdemo</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*fkFq_uQ7VtrY6cxoadGVxA.png" alt="img" /></p>
+
+<p>选择remotes,点+,选择add remote,名字可以随便填写,testdemo, address一栏粘贴刚刚复制的链接
+点击完成</p>
+
+<p>回到Xcode,还是点击"Source Control",选择commit,注意不要勾选Breakpoint_v2.xcbkptlist这个选项,输入提交信息,完成</p>
+
+<p>然后点击"Source Control",选择push,会出现push local changes: 点击push,OK!大功告成</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -246,6 +295,10 @@ categories:             #分类
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/06/15/jiang-xcodezhong-de-dai-ma-shang-chuan-dao-githubshang/">将Xcode中的代码上传到github上</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/05/29/da-jian-zi-ji-de-octopress/">搭建自己的Octopress</a>
