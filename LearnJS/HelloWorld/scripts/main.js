@@ -34,3 +34,8 @@ myButton.onclick = function() {
     alert('海艳就是猪！！！哈哈哈！！！');
 }
 
+
+var siteButton = document.querySelector('site');
+siteButton.onclick = function () {
+    alert('goto site');
+}
